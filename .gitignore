@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Poetry lock file (opcional: só ignore se você deseja que cada dev gere o seu próprio)
+# poetry.lock
+
+# Python environments metadata
+*.egg-info/
+dist/
+build/
+
+# Caches
+.cache/
+__pypackages__/
+.poetry/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# VS Code config
+.vscode/
+*.code-workspace
+
+# PyCharm config
+.idea/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Type checker
+.mypy_cache/
+.pytype/
+.pyre/
+
+# LangChain / LangGraph (se aplicável)
+langchain.db
+langgraph_state.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node (se usar em UI ou ferramenta auxiliar)
+node_modules/
+
+# Outros
+*.bak
