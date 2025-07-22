@@ -24,7 +24,7 @@ Criar um sistema de agentes que:
   cd llm-agent-smith
   poetry install
   poetry env use python3.11 
-  poetry shell
+  source $(poetry env info --path)/bin/activate
 ```
 🧪 Testes
 ```bash
